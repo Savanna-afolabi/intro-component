@@ -94,10 +94,39 @@ h2, p, button, input, h5{
    color: white;
 }
 h2{
-    font-size: 29px;
+    font-size: 48px;
 
 }
 #section-1{
     color: white;
 }
+@media (max-width: 1440px) {
+   body{
+   width: 100vh;
 
+
+   }
+   #section-2{
+    width: 75px;
+   }
+   main{
+    flex-direction: column;
+}
+    form{
+        width: 300px;
+        height: 430px;
+}
+    #sevendays{
+        width: 300px;
+    }
+    #section-1{
+        margin-left: 230px;
+        width: 300px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 19px;
+    }
+}
